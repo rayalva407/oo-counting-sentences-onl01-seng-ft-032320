@@ -21,6 +21,7 @@ class String
       array.each do |sentence|
         counter += 1
       end
+      counter
     else
       return counter
     end
