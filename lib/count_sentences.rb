@@ -18,7 +18,7 @@ class String
     array = self.split(/[.?!]/)
     counter = 0
     if array.length > 0
-      array.each.reject(&:empty) do |sentence|
+      array.each.reject!(&:empty?) do |sentence|
         counter += 1
       end
       counter
