@@ -15,7 +15,13 @@ class String
   end
 
   def count_sentences
-    array = self.split(/[.?!]/).map {|x|
+    array = self.split(/[.?!]/)
+    counter = 0
+    if array.length > 0
+      
+    else
+      
+    end
     
   end
 end
