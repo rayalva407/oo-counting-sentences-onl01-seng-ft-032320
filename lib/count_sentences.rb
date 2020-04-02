@@ -19,9 +19,9 @@ class String
     counter = 0
     if array.length > 0
       array.each do |sentence|
-        counter += 0
+        counter += 1
     else
-      
+      return counter
     end
     
   end
