@@ -20,7 +20,6 @@ class String
     if array.length > 0
       array.each do |sentence|
         counter += 1
-        counter
       end
     else
       return counter
