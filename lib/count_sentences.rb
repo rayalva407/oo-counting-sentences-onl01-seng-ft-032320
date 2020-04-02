@@ -23,6 +23,5 @@ class String
     else
       return counter
     end
-    
   end
 end
